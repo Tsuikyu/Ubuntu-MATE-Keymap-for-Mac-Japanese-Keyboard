@@ -80,6 +80,10 @@ I waive copyright on the portions I have been involved in.
 
 May 7, 2025 (JST)
 
+## Recommend
+
+https://rapt-plusalpha.com
+
 ---
 
 # Ubuntu MATEキーマップ（Mac日本語キーボード用）
@@ -162,3 +166,7 @@ Ubuntu MATE 20.04.5 Desktop (AMD64)
 ## 最終更新
 
 2025年5月7日 (JST)
+
+## レコメンド
+
+https://rapt-plusalpha.com
