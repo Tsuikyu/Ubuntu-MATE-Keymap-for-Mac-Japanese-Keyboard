@@ -21,6 +21,23 @@ This keymap makes the following changes:
 - If the “英数” and “かな” keys do not work as expected, make sure you are running Ubuntu MATE in a **Xorg** session.
 - To check the key assignments, it is convenient to use `xev` in a terminal.
 
+## How to Install IBus Mozc (Japanese Input)
+
+1. Open a terminal and run:
+    ```
+    sudo apt update
+    sudo apt install ibus-mozc
+    ```
+2. After installation, reboot the system after saving important data:
+    ```
+    sudo reboot
+    ```
+3. Once restarted, open the **Settings** app and go to **Region & Language**.
+4. Click **Manage Installed Languages** or **Input Sources**, then add **Japanese (Mozc)** as an input source.
+5. Make sure **IBus** is selected as your input method framework (you can check this in Language Support or Input Method settings)[1][2][5][6].
+6. Set **Japanese (Mozc)** as the default input method if needed.
+
+*Now you should be able to switch between English and Japanese input using the assigned keys.*
 
 ## How to Install .Xmodmap
 
@@ -38,7 +55,7 @@ This keymap makes the following changes:
     xmodmap ~/.Xmodmap
     ```
 
-## How to Install the Mozc Keymap
+## How to Install the IBus Mozc Keymap
 
 *Assuming your language setting is Japanese.*
 
@@ -50,9 +67,18 @@ This keymap makes the following changes:
 
 After all steps are complete, save your important data and restart your Mac to activate the new settings.
 
+## Computers verified to work
+
+MacBook Pro 15-inch Mid 2010 (SSD 512GB Installed)  
+Ubuntu MATE 20.04.5 Desktop (AMD64)
+
 ## Copyright
 
 I waive copyright on the portions I have been involved in.
+
+## Last updated
+
+May 7, 2025 (JST)
 
 ---
 
@@ -73,11 +99,28 @@ I waive copyright on the portions I have been involved in.
 - 「英数」が、「Eisu (Mozc)」になります。
 - 「かな」が、「Hiragana (Mozc)」になります。
 
-## キーボードモデルのインストール方法
+## キーボードモデルの設定方法
 
 - セットアップ時に `sudo dpkg-reconfigure keyboard-configuration` を実行し、キーボードモデルに **Apple Aluminium (JIS)** を選択してください。
 - 「英数」「かな」キーが期待通りに動作しない場合は、**Xorg**セッションでUbuntu MATEを起動しているか確認してください。
 - キー割り当ての確認には、ターミナルで `xev` を使うと便利です。
+
+## IBus Mozc（日本語入力）のインストール方法
+
+1. ターミナルを開き、以下を実行します。
+    ```
+    sudo apt update
+    sudo apt install ibus-mozc
+    ```
+2. インストール後、重要なデータを保存した後で、システムを再起動します。
+    ```
+    sudo reboot
+    ```
+3. 再起動後、「設定」アプリの「地域と言語」や「入力ソースの管理」から「日本語（Mozc）」を追加します。
+4. 入力メソッドフレームワークが**IBus**になっていることを確認してください（「言語サポート」や「入力メソッド」設定で確認できます）[1][2][5][6]。
+5. 必要に応じて「日本語（Mozc）」をデフォルトの入力ソースに設定してください。
+
+*これで、割り当てたキーで英語・日本語入力を切り替えられるようになります。*
 
 ## .Xmodmapのインストール方法
 
@@ -95,7 +138,7 @@ I waive copyright on the portions I have been involved in.
     xmodmap ~/.Xmodmap
     ```
 
-## Mozcキーマップのインストール方法
+## IBus Mozcキーマップのインストール方法
 
 *言語設定が日本語の場合を想定しています。*
 
@@ -107,6 +150,15 @@ I waive copyright on the portions I have been involved in.
 
 すべての手順が終わったら、重要なデータを保存し、設定を有効にするためMacを再起動してください。
 
+## 動作確認済み環境
+
+MacBook Pro 15-inch Mid 2010 (SSD 512GB換装済み)  
+Ubuntu MATE 20.04.5 Desktop (AMD64)
+
 ## 著作権
 
 私が関与した部分については著作権を放棄します。
+
+## 最終更新
+
+2025年5月7日 (JST)
