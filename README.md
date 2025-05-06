@@ -2,6 +2,10 @@
 
 This is a key configuration files for using a Mac keyboard in Ubuntu MATE like macOS.
 
+## Disclaimer
+
+Tsuikyu assumes no responsibility whatsoever for the installation of this software on your computer.
+
 ## How to install .Xmodmap
 
 1. Click on the green “Code” button in the upper right corner of the repository's top page.
@@ -32,11 +36,23 @@ This is a key configuration files for using a Mac keyboard in Ubuntu MATE like m
 
 After all steps are complete, save all important data and restart your Mac.
 
+## Copyright
+
+I waive copyright on the portions I have been involved in.
+
+## Disclaimer
+
+Tsuikyu assumes no responsibility whatsoever for the installation of this software on your computer.
+
 ~
 
 # Ubuntu MATEキーマップ（Mac日本語キーボード用）
 
 これは、Ubuntu MATEでMacの日本語キーボードをmacOSのように使うためのキー設定ファイルです。
+
+## 免責事項
+
+これをあなたのコンピュータにインストールしたことによるいっさいの責任を、Tsuikyuは負わないものとします。
 
 ## .Xmodmapのインストール方法
 
@@ -65,3 +81,7 @@ After all steps are complete, save all important data and restart your Mac.
 5. 「OK」「適用」を選んでください。
 
 すべての手順が終わったら、重要なデータをすべて保存したのち、Macを再起動してください。
+
+## 著作権
+
+私が関与した部分については著作権を放棄します。
