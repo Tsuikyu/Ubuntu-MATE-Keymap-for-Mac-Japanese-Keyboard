@@ -75,6 +75,8 @@ Ubuntu MATE 20.04.5 Desktop (AMD64)
 
 私が関与した部分については著作権を放棄します。
 
+ただし、XmodmapはMITライセンス、MozcファイルはBSDライセンスとなっていることにご注意ください。
+
 ## 最終更新
 
 2025年5月7日 (JST)
@@ -162,6 +164,8 @@ Ubuntu MATE 20.04.5 Desktop (AMD64)
 ## Copyright
 
 I waive copyright on the portions I have been involved in.
+
+Please note, however, that Xmodmap is under the MIT license and Mozc files are under the BSD license.
 
 ## Last updated
 
