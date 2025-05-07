@@ -33,8 +33,9 @@
     sudo reboot
     ```
 3. 再起動後、「設定」アプリの「地域と言語」や「入力ソースの管理」から「日本語（Mozc）」を追加します。
-4. 入力メソッドフレームワークが**IBus**になっていることを確認してください（「言語サポート」や「入力メソッド」設定で確認できます）。
-5. 必要に応じて「日本語（Mozc）」をデフォルトの入力ソースに設定してください。
+4. キー配列がおかしくなった場合は、「English (US)」や「Japanese」など、Mozcに関係のない入力方法を消してみてください。
+5. 入力メソッドフレームワークが**IBus**になっていることを確認してください（「言語サポート」や「入力メソッド」設定で確認できます）。
+6. 必要に応じて「日本語（Mozc）」をデフォルトの入力ソースに設定してください。
 
 *これで、割り当てたキーで英語・日本語入力を切り替えられるようになります。*
 
@@ -122,9 +123,10 @@ This keymap makes the following changes:
     sudo reboot
     ```
 3. Once restarted, open the **Settings** app and go to **Region & Language**.
-4. Click **Manage Installed Languages** or **Input Sources**, then add **Japanese (Mozc)** as an input source.
-5. Make sure **IBus** is selected as your input method framework (you can check this in Language Support or Input Method settings).
-6. Set **Japanese (Mozc)** as the default input method if needed.
+4. if the key layout is wrong, try erasing "English (US)", "Japanese", or any other input method not related to Mozc.
+5. Click **Manage Installed Languages** or **Input Sources**, then add **Japanese (Mozc)** as an input source.
+6. Make sure **IBus** is selected as your input method framework (you can check this in Language Support or Input Method settings).
+7. Set **Japanese (Mozc)** as the default input method if needed.
 
 *Now you should be able to switch between English and Japanese input using the assigned keys.*
 
