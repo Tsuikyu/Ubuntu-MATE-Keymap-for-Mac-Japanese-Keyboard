@@ -165,7 +165,7 @@ Ubuntu MATE 20.04.5 Desktop (AMD64)
 
 I waive copyright on the portions I have been involved in.
 
-Please note, however, that Xmodmap is under the MIT license and Mozc are under the BSD license.
+Please note, however, that Xmodmap is under the MIT license and Mozc is under the BSD license.
 
 ## Last updated
 
